@@ -263,7 +263,7 @@ if __name__ == "__main__":
             record_result(minlist, inertia_weight,cognitive_weight, social_weight,num_particles,i)
             print(social_weight)
         social_weight=1.5
-        for num_particles in [10,15,20,25,30]:
+        for num_particles in [5,10,15,20,25]:
             minlist, searchvalue, minvalue = particle_swarm_optimization(objective_function, case1,caseadd,
                                                         d,r, k,
                                                         inertia_weight,cognitive_weight,social_weight,
